@@ -1,0 +1,67 @@
+
+survey object
+
+get survey
+
+post survey
+
+guid ids
+
+dependencies also on same page???
+option for survey side or client side logic
+
+multiple pages, questions
+validation
+
+only questions that meet dependencies should have answers submitted
+
+store in json blob? Mongo, but could have different adapters for data???
+
+export data, zip, encypt??????????
+
+cookies etc, only allow person to enter certain amount of times based on a key, could be cookie stuff or an answer to question
+
+required fields, etc types
+
+also custom field types e.g. dropdown with drop down, what about extending types overriding etc????????
+
+what about providing data sources to drop downs, raido lists etc,
+
+multiple choice and multi choice
+
+
+progress bar etc,
+
+configurable options on all surveys:
+start date, end date
+button texts
+option for full javascript e.g. all pages and questions in one view
+
+limit on long text!!!
+
+shouldn't be able to change survey if people have ansewred?????????
+
+progress bar, page and all question type templates should be defined in markup and can be overriden
+
+inteliiglent server side and client side validation and dependency processing
+
+caching etc
+
+questions and pages can't be dependent on future questions!!
+Need sort order
+
+validation when creating surveys, around dependencies page level and question, must be before, revalidate when moving
+can't have same sort index!!!!!!!
+
+only show pages if they have questions, all dependencies etc must be processed
+
+seperate library for editor, or exposed somehow in this library like agenda ui
+
+configuration options need sending in somewhere for mongo db etc
+
+can't have dependency on itself
+
+
+lots of tests
+
+forward, back, persist state

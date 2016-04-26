@@ -1,0 +1,17 @@
+{
+  "name": "elency-survey",
+  "version": "1.0.0",
+  "description": "Elency Survey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee Crowe",
+  "license": "ISC",
+  "devDependencies": {
+    "should": "~8.3.1"
+  },
+  "dependencies": {
+    "uuid": "~2.0.2"
+  }
+}
